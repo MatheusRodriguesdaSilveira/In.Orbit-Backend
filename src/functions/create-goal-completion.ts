@@ -1,6 +1,6 @@
 import { and, count, eq, gte, lte } from 'drizzle-orm'
-import { db } from '../../db'
-import { goalCompletions, goals } from '../../db/schema'
+import { db } from '../db'
+import { goalCompletions, goals } from '../db/schema'
 import dayjs from 'dayjs'
 import { sql } from 'drizzle-orm'
 

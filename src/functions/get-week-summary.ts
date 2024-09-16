@@ -1,6 +1,6 @@
 import { and, desc, eq, gte, lte, sql } from 'drizzle-orm'
-import { db } from '../../db'
-import { goalCompletions, goals } from '../../db/schema'
+import { db } from '../db'
+import { goalCompletions, goals } from '../db/schema'
 import dayjs from 'dayjs'
 
 export async function getWeekSummary() {
